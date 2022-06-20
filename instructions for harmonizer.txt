@@ -5,7 +5,7 @@ $ cd riffshuffle
 --PyCharm will do some automatic things, just let it roll--
 $ pip install music21 numpy typing-extensions websockets
 --maybe will need to $ pip install numpy--
---unzip zips, then delete zips--
+$ git clone --depth=1 https://github.com/jukedeck/nottingham-dataset.git corpus/abc/nottingham-dataset
 --in enviroment--
 python parse_all.py
 python server.py
