@@ -1,0 +1,17 @@
+$ git clone https://github.com/betaveros/riffshuffle.git
+$ cd riffshuffle
+--open in PyCharm. will create enviroment--
+--PyCharm will install packages in enviroment--
+--PyCharm will do some automatic things, just let it roll--
+$ pip install music21 numpy typing-extensions websockets
+--maybe will need to $ pip install numpy--
+$ git clone --depth=1 https://github.com/jukedeck/nottingham-dataset.git corpus/abc/nottingham-dataset
+$ curl http://marg.snu.ac.kr/chord_generation/dataset.zip > corpus/marg/dataset.zip
+$ curl http://rockcorpus.midside.com/harmonic_analyses/rs200_harmony_clt.zip > corpus/rs/rs200_harmony_clt.zip
+$ curl http://rockcorpus.midside.com/melodic_transcriptions/rs200_melody_nlt.zip > corpus/rs/rs200_melody_nlt.zip
+--unzip zips, then delete zips--
+--in enviroment--
+python parse_all.py
+python server.py
+npm install
+npm start
