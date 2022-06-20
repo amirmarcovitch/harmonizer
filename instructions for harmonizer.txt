@@ -1,5 +1,3 @@
-$ git clone https://github.com/betaveros/riffshuffle.git
-$ cd riffshuffle
 --open in PyCharm. will create enviroment--
 --PyCharm will install packages in enviroment--
 --PyCharm will do some automatic things, just let it roll--
